@@ -20,7 +20,7 @@ A modern password generator built with React and TailwindCSS that creates secure
 
 ## Live Demo
 
-[View Live Demo](https://vercel.com/sanket-naiks-projects-75a45bb7/password-generator)
+[View Live Demo](https://password-generator-sanket-naiks-projects-75a45bb7.vercel.app/)
 
 ## Getting Started
 
