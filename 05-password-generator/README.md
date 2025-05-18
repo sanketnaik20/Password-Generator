@@ -1,12 +1,62 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern password generator built with React and TailwindCSS that creates secure passwords based on user preferences.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generate random passwords with customizable length
+- Include/exclude numbers and special characters
+- Copy passwords to clipboard with one click
+- Visual feedback for actions (copying, generating)
+- Responsive design that works on all devices
+- Clean and modern user interface
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- TailwindCSS
+- Heroicons
+- Modern JavaScript features (useCallback, useRef, useState)
+
+## Live Demo
+
+[View Live Demo](https://password-generator-sanket-naiks-projects-75a45bb7.vercel.app/)
+
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/sanketnaik20/Password-Generator.git
+```
+
+2. Install dependencies:
+```bash
+cd Password-Generator
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open http://localhost:5173 in your browser
+
+## Usage
+
+1. Adjust the password length using the slider
+2. Toggle numbers and special characters using checkboxes
+3. Click the refresh icon to generate a new password
+4. Click the copy button to copy the password to clipboard
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details
+
+## Author
+
+Sanket Naik - [@sanketnaik20](https://github.com/sanketnaik20)
